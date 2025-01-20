@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/xinliangnote/go-gin-api/configs"
-	"github.com/xinliangnote/go-gin-api/internal/router"
-	"github.com/xinliangnote/go-gin-api/pkg/env"
-	"github.com/xinliangnote/go-gin-api/pkg/logger"
-	"github.com/xinliangnote/go-gin-api/pkg/shutdown"
-	"github.com/xinliangnote/go-gin-api/pkg/timeutil"
+	"go-gin-api/configs"
+	"go-gin-api/internal/router"
+	"go-gin-api/pkg/env"
+	"go-gin-api/pkg/logger"
+	"go-gin-api/pkg/shutdown"
+	"go-gin-api/pkg/timeutil"
 
 	"go.uber.org/zap"
 )

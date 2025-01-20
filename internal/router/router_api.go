@@ -1,14 +1,14 @@
 package router
 
 import (
-	"github.com/xinliangnote/go-gin-api/internal/api/admin"
-	"github.com/xinliangnote/go-gin-api/internal/api/authorized"
-	"github.com/xinliangnote/go-gin-api/internal/api/config"
-	"github.com/xinliangnote/go-gin-api/internal/api/cron"
-	"github.com/xinliangnote/go-gin-api/internal/api/helper"
-	"github.com/xinliangnote/go-gin-api/internal/api/menu"
-	"github.com/xinliangnote/go-gin-api/internal/api/tool"
-	"github.com/xinliangnote/go-gin-api/internal/pkg/core"
+	"go-gin-api/internal/api/admin"
+	"go-gin-api/internal/api/authorized"
+	"go-gin-api/internal/api/config"
+	"go-gin-api/internal/api/cron"
+	"go-gin-api/internal/api/helper"
+	"go-gin-api/internal/api/menu"
+	"go-gin-api/internal/api/tool"
+	"go-gin-api/internal/pkg/core"
 )
 
 func setApiRouter(r *resource) {
